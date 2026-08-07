@@ -1,0 +1,36 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
+~$*
+
+# Secrets and environment files
+.env
+.env.*
+*.pem
+*.pfx
+*.key
+*.cer
+*.crt
+secrets/
+
+# Azure and Microsoft CLI local artifacts
+.azure/
+
+# PowerShell transcripts and local exports
+*.clixml
+*.transcript
+
+# Local notes not intended for publication
+private-notes/
+
+# Never commit credentials, tokens, or exported secrets
+credentials.*
+tokens.*
