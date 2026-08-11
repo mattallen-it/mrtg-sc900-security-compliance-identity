@@ -1,7 +1,7 @@
 # MRTG Security, Compliance & Identity Fundamentals
 
 ![Project Status](https://img.shields.io/badge/Project-In%20Progress-yellow)
-![Labs](https://img.shields.io/badge/Labs-0%20of%2012%20Complete-lightgrey)
+![Labs](https://img.shields.io/badge/Labs-1%20of%2012%20Complete-brightgreen)
 ![Microsoft](https://img.shields.io/badge/Microsoft-Security%20%7C%20Compliance%20%7C%20Identity-5C2D91)
 ![Certification](https://img.shields.io/badge/Certification-SC--900-5C2D91)
 ![License](https://img.shields.io/badge/License-MIT-blue)
@@ -47,12 +47,12 @@ Monroe Redstone Technology Group
 
 ```text
 Project Build                     | In Progress
-Labs Completed                    | 0 of 12
+Labs Completed                    | 1 of 12
 Master Lab Template               | Ready
 Repository Structure              | Ready
 AI Use Disclosure                 | Included
-Security Documentation Standard   | Defined
-Screenshot Sanitization Standard  | Defined
+Security Best Practices           | Defined
+Screenshot Sanitization Practices | Defined
 ```
 
 ---
@@ -156,7 +156,7 @@ Azure Cost Management is used when Azure consumption resources are involved. Mic
 
 | Lab | Title | Primary Focus | Status |
 |---:|---|---|:---:|
-| 01 | [Security, Compliance, and Identity Foundations](labs/lab-01-security-compliance-identity-foundations/) | SCI concepts, shared responsibility, Zero Trust, defense in depth, authentication, and authorization | Planned |
+| 01 | [Security, Compliance, and Identity Foundations](labs/lab-01-security-compliance-identity-foundations/) | SCI concepts, shared responsibility, Zero Trust, defense in depth, authentication, and authorization | **Complete** |
 | 02 | [Microsoft Entra Identity](labs/lab-02-microsoft-entra-identity/) | Entra ID, identity types, users, groups, roles, and cloud identity foundations | Planned |
 | 03 | [Authentication and Multifactor Authentication](labs/lab-03-authentication-mfa/) | Authentication methods, MFA, passwordless authentication, SSPR, and authentication strength | Planned |
 | 04 | [RBAC and Conditional Access](labs/lab-04-rbac-conditional-access/) | Least privilege, Microsoft Entra roles, Azure RBAC, and Conditional Access | Planned |
@@ -254,7 +254,7 @@ The master documentation template is located at [`docs/lab-template.md`](docs/la
 
 ---
 
-## Documentation Security Standard
+## Documentation Security Best Practices
 
 Before publication, lab evidence is reviewed for information such as:
 
