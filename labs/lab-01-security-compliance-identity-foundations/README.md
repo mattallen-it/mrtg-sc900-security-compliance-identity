@@ -1,6 +1,6 @@
 # Lab 01 - Security, Compliance, and Identity Foundations
 
-> **Status:** In Progress - concept work complete; screenshots pending repository upload
+> **Status:** Complete
 
 ## AI Use Disclosure
 
@@ -204,6 +204,7 @@ Security decisions surrounding the flow:
 12. Reviewed federation and trust relationships between identity systems.
 13. Passed the identity concepts module assessment and completed the learning path.
 14. Completed practical MRTG knowledge-check scenarios for each major concept area.
+15. Uploaded the five sanitized evidence screenshots to the repository and performed a final evidence review.
 
 ---
 
@@ -312,21 +313,21 @@ For MRTG, this can allow a partner user to access an approved MRTG application u
 
 ## Evidence Collected
 
-The following evidence was captured during the lab and will be uploaded after final sanitization:
+The following sanitized evidence was captured, uploaded, and verified in the repository:
 
 | Screenshot | Evidence |
 |---|---|
-| `00-sc900-course-starting-state.png` | SC-900 course and first learning-path starting state |
-| `01-shared-responsibility-model.png` | Shared responsibility model across cloud service models |
-| `02-security-compliance-module-complete.png` | Passed security and compliance concepts module assessment |
-| `03-authentication-vs-authorization.png` | Microsoft Learn visual distinguishing authentication and authorization |
-| `04-identity-concepts-and-learning-path-complete.png` | Passed identity concepts assessment and completed the learning path |
+| [`00-sc900-course-starting-state.png`](screenshots/00-sc900-course-starting-state.png) | SC-900 course and first learning-path starting state |
+| [`01-shared-responsibility-model.png`](screenshots/01-shared-responsibility-model.png) | Shared responsibility model across cloud service models |
+| [`02-security-compliance-module-complete.png`](screenshots/02-security-compliance-module-complete.png) | Passed security and compliance concepts module assessment |
+| [`03-authentication-vs-authorization.png`](screenshots/03-authentication-vs-authorization.png) | Microsoft Learn visual distinguishing authentication and authorization |
+| [`04-identity-concepts-and-learning-path-complete.png`](screenshots/04-identity-concepts-and-learning-path-complete.png) | Passed identity concepts assessment and completed the learning path |
 
 ---
 
 ## Validation
 
-Validation was performed through Microsoft Learn assessments and scenario-based knowledge checks.
+Validation was performed through Microsoft Learn assessments, scenario-based knowledge checks, and repository evidence verification.
 
 | Validation Item | Result |
 |---|---|
@@ -341,6 +342,7 @@ Validation was performed through Microsoft Learn assessments and scenario-based 
 | Identity/authentication/authorization scenarios | Correctly identified |
 | AD DS vs. Entra ID scenarios | Correctly identified |
 | Federation scenario | Correctly identified |
+| Required screenshot files | Present in repository |
 
 ---
 
@@ -360,8 +362,8 @@ Validation was performed through Microsoft Learn assessments and scenario-based 
 - [x] Completed AD DS versus Entra ID knowledge check
 - [x] Completed federation knowledge check
 - [x] Captured required screenshots
-- [ ] Upload sanitized screenshots to the repository
-- [ ] Perform final repository evidence review
+- [x] Uploaded sanitized screenshots to the repository
+- [x] Performed final repository evidence review
 
 ---
 
@@ -543,7 +545,7 @@ The exact controls would depend on organizational risk, licensing, regulatory re
 - Cloud versus traditional directory-service comparison
 - Governance and compliance terminology
 - Security documentation
-- Evidence collection and sanitization planning
+- Evidence collection and sanitization
 
 ---
 
@@ -551,33 +553,25 @@ The exact controls would depend on organizational risk, licensing, regulatory re
 
 No cloud resources or configurations were created, so no technical cleanup was required.
 
-Temporary local screenshot copies should be removed after sanitized evidence has been uploaded and verified in GitHub.
+Temporary local screenshot copies can be removed after verifying the committed evidence files render correctly in GitHub.
 
 ---
 
 ## Documentation Security Review
 
-Before final publication, verify that screenshots do not expose:
+The five committed screenshots were reviewed before publication and confirmed sanitized. No personal email addresses, user principal names, tenant IDs, subscription IDs, object IDs, authentication details, billing information, secrets, keys, tokens, or other sensitive account information were identified in the published evidence.
 
-- Personal email addresses
-- User principal names
-- Tenant IDs
-- Subscription IDs
-- Object IDs
-- Secrets, tokens, or keys
-- Authentication details
-- Billing information
-- Unrelated browser tabs, bookmarks, or notifications containing sensitive information
-
-The screenshots captured for this lab were reviewed during the lab workflow and did not require identified redactions at capture time. A final review will still be performed after repository upload.
+The final repository review also confirmed that the expected five screenshot files are present under the Lab 01 `screenshots/` directory.
 
 ---
 
 ## Outcome
 
-The Microsoft Learn portion and MRTG knowledge-check portion of Lab 01 are complete. The lab demonstrates a working understanding of the foundational security, compliance, and identity concepts required before moving into Microsoft Entra configuration and analysis.
+**Lab 01 is complete.**
 
-The remaining task is to upload the five sanitized screenshots and perform a final evidence review. After that, Lab 01 can be marked **Complete** and the root project progress can be updated to **1 of 12 labs complete**.
+The Microsoft Learn modules, assessments, MRTG knowledge checks, documentation, and evidence collection are complete. The lab demonstrates a working understanding of the foundational security, compliance, and identity concepts required before moving into Microsoft Entra configuration and analysis.
+
+The project can now proceed to **Lab 02 - Microsoft Entra Identity**.
 
 ---
 
@@ -596,7 +590,25 @@ screenshots/
 
 ## Screenshots
 
-Screenshot links will be added after the sanitized image files are uploaded to the repository.
+### SC-900 Course Starting State
+
+![SC-900 course starting state](screenshots/00-sc900-course-starting-state.png)
+
+### Shared Responsibility Model
+
+![Shared responsibility model](screenshots/01-shared-responsibility-model.png)
+
+### Security and Compliance Module Complete
+
+![Security and compliance concepts module assessment complete](screenshots/02-security-compliance-module-complete.png)
+
+### Authentication vs. Authorization
+
+![Authentication versus authorization](screenshots/03-authentication-vs-authorization.png)
+
+### Identity Concepts and Learning Path Complete
+
+![Identity concepts and learning path complete](screenshots/04-identity-concepts-and-learning-path-complete.png)
 
 ---
 
