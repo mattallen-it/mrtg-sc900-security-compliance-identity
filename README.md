@@ -1,7 +1,7 @@
 # MRTG Security, Compliance & Identity Fundamentals
 
 ![Project Status](https://img.shields.io/badge/Project-In%20Progress-yellow)
-![Labs](https://img.shields.io/badge/Labs-2%20of%2012%20Complete-brightgreen)
+![Labs](https://img.shields.io/badge/Labs-3%20of%2012%20Complete-brightgreen)
 ![Microsoft](https://img.shields.io/badge/Microsoft-Security%20%7C%20Compliance%20%7C%20Identity-5C2D91)
 ![Certification](https://img.shields.io/badge/Certification-SC--900-5C2D91)
 ![License](https://img.shields.io/badge/License-MIT-blue)
@@ -47,7 +47,7 @@ Monroe Redstone Technology Group
 
 ```text
 Project Build                     | In Progress
-Labs Completed                    | 2 of 12
+Labs Completed                    | 3 of 12
 Master Lab Template               | Ready
 Repository Structure              | Ready
 AI Use Disclosure                 | Included
@@ -158,7 +158,7 @@ Azure Cost Management is used when Azure consumption resources are involved. Mic
 |---:|---|---|:---:|
 | 01 | [Security, Compliance, and Identity Foundations](labs/lab-01-security-compliance-identity-foundations/) | SCI concepts, shared responsibility, Zero Trust, defense in depth, authentication, and authorization | **Complete** |
 | 02 | [Microsoft Entra Identity](labs/lab-02-microsoft-entra-identity/) | Entra ID, identity types, users, groups, roles, and cloud identity foundations | **Complete** |
-| 03 | [Authentication and Multifactor Authentication](labs/lab-03-authentication-mfa/) | Authentication methods, MFA, passwordless authentication, SSPR, and authentication strength | Planned |
+| 03 | [Authentication and Multifactor Authentication](labs/lab-03-authentication-mfa/) | Authentication methods, MFA, passwordless authentication, SSPR, and authentication strength | **Complete** |
 | 04 | [RBAC and Conditional Access](labs/lab-04-rbac-conditional-access/) | Least privilege, Microsoft Entra roles, Azure RBAC, and Conditional Access | Planned |
 | 05 | [Identity Governance](labs/lab-05-identity-governance/) | PIM, access reviews, identity lifecycle, entitlement concepts, and Identity Protection | Planned |
 | 06 | [Azure Infrastructure Security](labs/lab-06-azure-security/) | Defense in depth, network security, DDoS Protection, Azure Firewall, WAF, Bastion, Key Vault, and NSGs | Planned |
