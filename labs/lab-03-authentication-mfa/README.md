@@ -1,6 +1,6 @@
 # Lab 03 - Authentication and Multifactor Authentication
 
-> **Status:** In Progress
+> **Status:** Complete
 
 ## AI Use Disclosure
 
@@ -26,7 +26,7 @@ AI tools may be used to support learning, troubleshooting, documentation organiz
 
 Build a practical understanding of Microsoft Entra ID authentication capabilities and explain how stronger authentication reduces the risk of account compromise.
 
-This lab focuses on the Microsoft Learn module **Describe the authentication capabilities of Microsoft Entra ID** and covers:
+This lab focused on the Microsoft Learn module **Describe the authentication capabilities of Microsoft Entra ID** and covered:
 
 - Authentication methods in Microsoft Entra ID
 - Password-based authentication
@@ -67,25 +67,25 @@ MRTG is reviewing how users prove their identities before the organization desig
 
 The security team must understand the available Microsoft Entra authentication methods, how MFA combines independent factors, how passwordless methods reduce dependence on passwords, how SSPR supports secure user recovery, and how Microsoft Entra password protection helps prevent weak or commonly attacked passwords.
 
-The lab combines Microsoft Learn with sanitized read-only discovery in the Microsoft Entra admin center. No production authentication policy should be changed solely to create portfolio evidence.
+The lab combined Microsoft Learn with sanitized read-only discovery in the Microsoft Entra admin center. No production authentication policy changes were made solely to create portfolio evidence.
 
 ---
 
 ## Success Criteria
 
-The lab is successful when:
+The lab was successful because:
 
-- The Microsoft Learn module **Describe the authentication capabilities of Microsoft Entra ID** is completed
-- The module assessment is passed
-- Authentication factors can be distinguished as something you know, have, or are
-- Common Microsoft Entra authentication methods can be identified
-- MFA can be explained as requiring multiple independent authentication factors
-- Passwordless authentication can be distinguished from password + MFA
-- Stronger and phishing-resistant authentication approaches can be recognized
-- SSPR can be explained in practical IAM and help desk terms
-- Password protection and password-management capabilities can be explained
-- Authentication methods can be explored in the Microsoft Entra admin center without unnecessary configuration changes
-- Screenshots are sanitized before publication
+- The Microsoft Learn module **Describe the authentication capabilities of Microsoft Entra ID** was completed
+- The module assessment was passed
+- Authentication factors were distinguished as something you know, have, or are
+- Common Microsoft Entra authentication methods were identified
+- MFA was explained as requiring multiple independent authentication factors
+- Passwordless authentication was distinguished from password + MFA
+- Stronger and phishing-resistant authentication approaches were recognized
+- SSPR was explained in practical IAM and help desk terms
+- Password protection and password-management capabilities were reviewed
+- Authentication-related areas were explored in the Microsoft Entra admin center without unnecessary configuration changes
+- Screenshots were reviewed and sanitized before publication
 
 ---
 
@@ -117,7 +117,7 @@ The lab is successful when:
 | Microsoft Entra tenant access | Read-only authentication discovery | Recommended |
 | Privileged Entra role | Not required for core lab | No |
 
-Use the least privilege available. Do not elevate permissions simply to capture screenshots.
+Least privilege was maintained. No privilege elevation was required solely for screenshot capture or exploration.
 
 ---
 
@@ -133,7 +133,7 @@ Use the least privilege available. Do not elevate permissions simply to capture 
 
 ## Why These Services Are Used
 
-Microsoft Learn provides the official SC-900 training content. The Microsoft Entra admin center connects the authentication concepts to the administrative interface used by identity teams. GitHub provides a version-controlled portfolio record of the lab.
+Microsoft Learn provides the official SC-900 training content. The Microsoft Entra admin center connects authentication concepts to the administrative interface used by identity teams. GitHub provides a version-controlled portfolio record of the lab.
 
 ---
 
@@ -143,7 +143,7 @@ Microsoft Learn provides the official SC-900 training content. The Microsoft Ent
 Organization: Monroe Redstone Technology Group (MRTG)
 Lab mode: Microsoft Learn + read-only discovery
 Azure consumption resources deployed: None
-Authentication policy changes required: None
+Authentication policy changes performed: None
 Estimated Azure consumption cost: $0.00
 ```
 
@@ -179,15 +179,35 @@ MFA requires authentication using more than one independent factor. Simply repea
 
 ## Lab Safety and Change Control
 
-- Confirm the correct Microsoft Entra tenant before portal activity.
-- Prefer read-only discovery for this lab.
-- Do not disable or weaken authentication protections for testing.
-- Do not enroll a personal phone number, personal email address, or personal biometric solely for portfolio evidence.
-- Do not publish authentication-method details tied to a real user.
-- Do not expose personal names, email addresses, UPNs, tenant IDs, object IDs, phone numbers, QR codes, secrets, tokens, recovery information, or authentication-session details.
-- Avoid publishing unnecessary tenant security-posture details.
-- Sanitize all screenshots before committing them to GitHub.
-- Treat AI-generated guidance as secondary to Microsoft documentation and observed results.
+- Confirmed the correct Microsoft Entra tenant before portal activity.
+- Used read-only discovery for the administrative portion of the lab.
+- Did not disable or weaken authentication protections for testing.
+- Did not enroll a personal phone number, personal email address, or personal biometric solely for portfolio evidence.
+- Did not publish authentication-method details tied to a real user.
+- Avoided exposing personal names, email addresses, UPNs, tenant IDs, object IDs, phone numbers, QR codes, secrets, tokens, recovery information, or authentication-session details.
+- Avoided publishing unnecessary tenant security-posture details.
+- Reviewed screenshots before committing them to GitHub.
+- Treated AI-generated guidance as secondary to Microsoft documentation and observed results.
+
+---
+
+## Steps Performed
+
+1. Opened the Microsoft Learn module **Describe the authentication capabilities of Microsoft Entra ID**.
+2. Reviewed Microsoft Entra authentication methods and their use for primary authentication, MFA, SSPR, and account recovery.
+3. Reviewed the three common authentication-factor categories: something you know, something you have, and something you are.
+4. Reviewed multifactor authentication and the requirement to combine independent factor categories.
+5. Compared password-based, passwordless, and phishing-resistant authentication approaches.
+6. Reviewed Microsoft Authenticator, passkeys/FIDO2, Windows Hello for Business, certificate-based authentication, Temporary Access Pass, OATH, SMS, voice, and related methods at an SC-900 level.
+7. Reviewed SSPR and the distinction between normal password reset and broader account recovery scenarios.
+8. Reviewed password protection and password-management concepts.
+9. Passed the Microsoft Learn module assessment.
+10. Performed scenario-based knowledge checks covering authentication factors, MFA, passwordless authentication, SSPR, password protection, and phishing-resistant authentication.
+11. Performed read-only discovery in the Microsoft Entra admin center, including:
+    - Entra ID > Authentication methods > Policies
+    - Entra ID > Password reset
+    - Entra ID > Authentication methods > Password protection
+12. Uploaded and verified the final sanitized screenshot set in GitHub.
 
 ---
 
@@ -197,7 +217,7 @@ MFA requires authentication using more than one independent factor. Simply repea
 
 **Introduction to Microsoft Entra**
 
-Lab 03 covers the module:
+Lab 03 covered the module:
 
 **Describe the authentication capabilities of Microsoft Entra ID**
 
@@ -222,95 +242,117 @@ After completing the module, the learner should be able to:
 
 ---
 
-## Discovery Activities
-
-Where tenant access is available, perform sanitized read-only exploration of authentication-related areas in the Microsoft Entra admin center.
-
-Possible discovery targets include:
-
-1. Microsoft Entra ID authentication methods
-2. Authentication methods policy overview
-3. Password reset / SSPR settings where available
-4. Password protection settings where available
-
-Do not change method enablement, user targeting, registration settings, or password-reset configuration solely for portfolio evidence.
-
----
-
-## Concept Work to Produce
-
-The completed Lab 03 documentation will include:
-
-1. **Authentication Factor Matrix** - know, have, and are
-2. **Authentication Method Comparison** - password, Authenticator, passkeys/FIDO2, Windows Hello for Business, certificate-based authentication, Temporary Access Pass, and other methods at an SC-900 level
-3. **MFA Summary** - why multiple independent factors improve security
-4. **Passwordless vs. MFA Comparison** - why passwordless does not simply mean "no security"
-5. **Phishing-Resistance Note** - distinguish stronger phishing-resistant methods from methods that remain vulnerable to remote phishing
-6. **SSPR Summary** - secure user-driven password recovery and help desk impact
-7. **Password Protection Summary** - banned-password concepts and password-management protections
-
----
-
-## Planned Evidence
-
-Keep the screenshot set small and useful:
-
-| Screenshot | Evidence |
-|---|---|
-| `00-entra-authentication-module-starting-state.png` | Microsoft Learn authentication module starting state and objectives |
-| `01-entra-authentication-methods.png` | Strong Microsoft Learn visual or sanitized Entra authentication-methods discovery |
-| `02-entra-multifactor-authentication.png` | MFA concept evidence |
-| `03-entra-sspr-or-password-protection.png` | Strong SSPR or password-protection evidence; choose the better visual rather than capturing both without need |
-| `04-entra-authentication-module-complete.png` | Passed module assessment and module completion |
-
-Only screenshots actually captured and sanitized will remain in the final README.
-
----
-
 ## Supporting Concept Summary
 
-To be completed after Microsoft Learn review and scenario-based knowledge checks.
+### Authentication Factor Matrix
+
+| Factor Category | Meaning | Examples |
+|---|---|---|
+| Something you know | A secret known by the user | Password, PIN |
+| Something you have | A physical or registered possession | Security key, registered phone, authenticator device |
+| Something you are | A biometric characteristic | Fingerprint, facial recognition |
+
+A second prompt does not automatically create MFA. For example, a password plus another knowledge-based secret remains within the same factor category.
+
+### Authentication Method Comparison
+
+| Method | SC-900-Level Security Purpose |
+|---|---|
+| Password | Common primary credential but vulnerable to guessing, reuse, leakage, and phishing |
+| Microsoft Authenticator | Supports passwordless sign-in and MFA depending on configuration and use |
+| Passkeys / FIDO2 | Strong passwordless authentication and an important phishing-resistant direction |
+| Windows Hello for Business | Uses device-bound credentials with a local gesture such as a PIN or biometric |
+| Certificate-based authentication | Uses certificates as strong credentials in supported deployments |
+| Temporary Access Pass | Time-limited credential commonly used to bootstrap or recover registration for stronger methods |
+| OATH tokens | Can provide one-time passcodes for secondary authentication |
+| SMS / voice | Can support MFA or recovery but provide weaker resistance to phishing and social engineering than phishing-resistant methods |
+
+### MFA Summary
+
+MFA improves account security by requiring more than one independent factor category. A stolen password alone should not be sufficient to authenticate when a properly designed MFA requirement is enforced.
+
+### Passwordless vs. MFA
+
+Passwordless authentication removes the password from the sign-in process and replaces it with another credential mechanism. It does not mean authentication is removed. Some passwordless methods can provide multifactor characteristics through a combination such as device possession plus a local biometric or PIN gesture.
+
+### Phishing Resistance
+
+Passkeys/FIDO2 and Windows Hello for Business represent stronger phishing-resistant directions because the credential is designed to avoid exposing a reusable password or remotely phishable shared secret. SMS and voice can still support MFA but are not equivalent to phishing-resistant credentials.
+
+### SSPR
+
+Self-service password reset allows users who still have access to approved registered verification methods to reset a forgotten password without requiring a help desk technician to perform the reset manually.
+
+This reduces support workload while preserving identity verification requirements.
+
+The Learn content also distinguishes broader account recovery scenarios in which a user has lost access to all authentication methods and requires a more comprehensive recovery process.
+
+### Password Protection
+
+Microsoft Entra password protection helps prevent weak and commonly attacked passwords by identifying banned-password patterns and reducing the likelihood that predictable credentials are accepted.
 
 ---
 
 ## Evidence Collected
 
-To be completed after sanitized evidence is captured and uploaded.
+| Screenshot | Evidence |
+|---|---|
+| `00-entra-authentication-module-starting-state.png` | Microsoft Learn authentication module starting state and learning objectives |
+| `01-entra-authentication-methods.png` | Current authentication-method comparison showing primary and secondary authentication uses |
+| `02-entra-multifactor-authentication.png` | Conceptual MFA flow showing independent authentication factors and Microsoft Entra ID as verifier |
+| `03-entra-sspr-or-password-protection.png` | Comparison of self-service password reset and broader account recovery |
+| `04-entra-authentication-module-complete.png` | Module assessment passed and module completion |
 
 ---
 
 ## Validation
 
-Validation will be performed through:
+| Validation Activity | Result |
+|---|---|
+| Microsoft Learn module completed | Passed |
+| Microsoft Learn module assessment | Passed |
+| Authentication factor identification | Passed |
+| MFA knowledge check | Passed |
+| Passwordless authentication knowledge check | Passed |
+| SSPR knowledge check | Passed |
+| Password protection knowledge check | Passed |
+| Phishing-resistant authentication scenario | Passed |
+| Microsoft Entra read-only discovery | Completed |
+| Repository screenshot verification | Completed |
 
-- Microsoft Learn module assessment
-- Scenario-based authentication-method knowledge checks
-- MFA factor-identification exercises
-- Passwordless vs. password + MFA comparison
-- SSPR scenario review
-- Password-protection scenario review
-- Repository evidence verification
+Knowledge-check examples validated that:
+
+- Password is something you know.
+- A security key is something you have.
+- A fingerprint is something you are.
+- A registered Authenticator device is something you have.
+- A PIN is something you know.
+- Password + security key is MFA because the two methods represent different factor categories.
+- Passwordless authentication replaces the password rather than eliminating authentication.
+- SSPR is appropriate when a user forgets a password but still has access to registered verification methods.
+- Microsoft Entra password protection addresses weak and commonly attacked passwords.
+- Passkeys/FIDO2 are a stronger phishing-resistant direction than password-only or SMS-based authentication.
 
 ---
 
 ## Completion Checklist
 
-- [ ] Capture starting-state screenshot
-- [ ] Complete authentication methods section
-- [ ] Complete MFA section
-- [ ] Complete SSPR section
-- [ ] Complete password protection and management section
-- [ ] Pass module assessment
-- [ ] Perform sanitized Entra authentication discovery
-- [ ] Complete authentication-factor knowledge check
-- [ ] Complete authentication-method knowledge check
-- [ ] Complete MFA knowledge check
-- [ ] Complete passwordless knowledge check
-- [ ] Complete SSPR knowledge check
-- [ ] Complete password-protection knowledge check
-- [ ] Upload sanitized screenshots
-- [ ] Perform final repository evidence review
-- [ ] Mark Lab 03 complete
+- [x] Capture starting-state screenshot
+- [x] Complete authentication methods section
+- [x] Complete MFA section
+- [x] Complete SSPR section
+- [x] Complete password protection and management section
+- [x] Pass module assessment
+- [x] Perform sanitized Entra authentication discovery
+- [x] Complete authentication-factor knowledge check
+- [x] Complete authentication-method knowledge check
+- [x] Complete MFA knowledge check
+- [x] Complete passwordless knowledge check
+- [x] Complete SSPR knowledge check
+- [x] Complete password-protection knowledge check
+- [x] Upload sanitized screenshots
+- [x] Perform final repository evidence review
+- [x] Mark Lab 03 complete
 
 ---
 
@@ -328,9 +370,9 @@ Describe the capabilities of Microsoft Entra
 Describe authentication capabilities of Microsoft Entra ID
 ```
 
-The current SC-900 skills measured include:
+The SC-900 skills covered by this lab include:
 
-- Describe the authentication methods
+- Describe authentication methods
 - Describe multifactor authentication (MFA)
 - Describe password protection and management capabilities
 
@@ -340,21 +382,30 @@ SSPR is included in the Microsoft Learn authentication module and is treated in 
 
 ## Mini Objective Coverage
 
-To be completed after validation.
+| Objective | Coverage |
+|---|---|
+| Authentication methods | Reviewed Microsoft Entra methods and compared their primary, secondary, passwordless, and recovery uses |
+| Multifactor authentication | Identified factor categories and validated what does and does not qualify as MFA |
+| Passwordless authentication | Distinguished passwordless authentication from password + MFA and from unauthenticated access |
+| Phishing-resistant authentication | Identified passkeys/FIDO2 and Windows Hello for Business as stronger authentication directions |
+| SSPR | Explained self-service password reset and its help desk / IAM value |
+| Password protection | Reviewed weak-password and banned-password protection concepts |
+| Administrative discovery | Reviewed authentication methods, SSPR, and password protection areas in Microsoft Entra without making changes |
 
 ---
 
 ## Exam Traps and Key Distinctions
 
-Initial distinctions to validate during the lab:
-
 - Authentication is not authorization.
 - MFA requires more than one independent factor category.
-- Two passwords do not equal MFA because both are "something you know."
-- Passwordless authentication does not mean authentication is removed; it replaces the password with stronger authentication mechanisms.
-- A managed or registered authentication method is not necessarily required for every sign-in unless an applicable policy requires it.
-- SSPR is an account-recovery/password-reset capability, not an authorization system.
-- Stronger authentication does not replace least privilege or access-control policy.
+- Two passwords do not equal MFA because both are something you know.
+- A password plus a security key can provide MFA because it combines something you know with something you have.
+- Passwordless authentication does not mean authentication is removed; it replaces the password with another credential mechanism.
+- Passwordless and MFA are related but are not identical concepts.
+- SSPR is a password-recovery capability, not an authorization system.
+- Temporary Access Pass is intended as a temporary credential and is not a normal long-term replacement for strong authentication methods.
+- SMS and voice can support MFA but are not equivalent to phishing-resistant authentication.
+- Strong authentication does not replace least privilege, Conditional Access, RBAC, monitoring, or other access controls.
 
 ---
 
@@ -368,17 +419,32 @@ Can this identity prove that it is who it claims to be?
 
 Identity administrators must balance usability, recovery, phishing resistance, account security, and operational support when selecting and governing authentication methods.
 
+This lab also reinforces a common IAM support boundary: restoring authentication is not the same as granting authorization. A user can successfully authenticate and still lack permission to a resource.
+
 ---
 
 ## On-Premises Connection
 
 Traditional AD DS environments commonly rely on passwords and may use additional authentication products or smart cards. Hybrid identity environments can extend Microsoft Entra authentication and recovery capabilities to cloud-connected users while still requiring careful design around on-premises password and identity infrastructure.
 
+Password protection can also be relevant to hybrid environments where organizations want stronger password controls to extend beyond cloud-only identities.
+
 ---
 
 ## Security Analysis
 
-This lab will evaluate authentication risk from the perspective that a password can be guessed, reused, phished, leaked, or stolen. Strong authentication should reduce dependence on a single shared secret and make successful account takeover more difficult.
+Passwords can be guessed, reused, phished, leaked, or stolen. Authentication design should therefore reduce dependence on a single reusable secret.
+
+MRTG's strongest direction is to:
+
+- Prefer phishing-resistant authentication for privileged and high-risk identities
+- Use MFA where passwordless or phishing-resistant methods are not yet practical
+- Restrict weak or legacy authentication choices where possible
+- Govern method registration and recovery carefully
+- Protect the recovery process with the same seriousness as the primary sign-in process
+- Monitor authentication activity for suspicious behavior
+
+A strong primary authentication method is valuable, but compromised sessions, misconfigured permissions, or overly broad authorization can still create risk after sign-in.
 
 ---
 
@@ -400,7 +466,16 @@ Authentication must still be combined with:
 
 ## Governance and Compliance Notes
 
-Authentication-method governance should define which methods are permitted, who can use them, how users register and recover authentication methods, and how high-risk or privileged identities receive stronger protections.
+Authentication-method governance should define:
+
+- Which methods are permitted
+- Which identity populations may use each method
+- How users register methods
+- How users recover access
+- How privileged and high-risk identities receive stronger protections
+- How authentication changes are documented and monitored
+
+In regulated environments, authentication and recovery procedures should also support auditable identity verification and consistent policy enforcement.
 
 ---
 
@@ -410,58 +485,83 @@ Authentication-method governance should define which methods are permitted, who 
 Estimated Azure consumption cost: $0.00
 ```
 
-The core lab uses Microsoft Learn and read-only Microsoft Entra discovery. No Azure consumption resources are required.
+The core lab used Microsoft Learn and read-only Microsoft Entra discovery. No Azure consumption resources were deployed.
 
-Authentication capabilities and enforcement options can have licensing, tenant, and policy dependencies. Any premium requirement encountered during hands-on discovery will be documented rather than bypassed solely to complete the lab.
+Authentication capabilities and enforcement options can have licensing, tenant, and policy dependencies. Premium requirements should be documented rather than bypassed solely to complete a lab.
 
 ---
 
 ## Troubleshooting
 
-To be completed if issues occur during the lab.
+No material technical issues were encountered during the core lab.
+
+The primary constraint was keeping the evidence set useful while avoiding user-specific authentication data and unnecessary tenant security details. The solution was to rely primarily on Microsoft Learn evidence and use the Entra admin center for read-only discovery without publishing sensitive portal views.
 
 ---
 
 ## What I Would Do Differently in Production
 
-To be completed after the lab. Production recommendations should favor phishing-resistant authentication, least privilege, controlled registration and recovery, staged deployment, monitoring, and documented break-glass procedures where appropriate.
+In a production rollout, MRTG should not enable authentication changes broadly without planning and staged validation.
+
+A stronger production approach would include:
+
+- Inventory current authentication-method usage
+- Identify privileged and high-risk populations first
+- Establish emergency-access / break-glass procedures
+- Pilot stronger methods with a controlled user group
+- Prefer phishing-resistant methods where practical
+- Define approved registration and recovery processes
+- Communicate user-impact changes before enforcement
+- Monitor sign-in and registration activity
+- Document rollback and support procedures
+- Apply Conditional Access and authorization controls separately from authentication-method configuration
 
 ---
 
 ## Lessons Learned
 
-To be completed after knowledge checks and validation.
+- Authentication proves identity; authorization determines what that identity may access.
+- MFA depends on independent factor categories, not simply multiple prompts.
+- Passwordless authentication still requires strong identity verification.
+- Phishing-resistant authentication provides a stronger security direction than reusable passwords or remotely phishable codes.
+- SSPR can reduce help desk workload while preserving identity verification.
+- Recovery methods are part of the authentication security boundary and must be governed carefully.
+- Authentication-method choice should be based on risk, usability, recovery, and operational requirements rather than convenience alone.
+- Read-only administrative discovery is often enough to connect certification concepts to real portal workflows without changing tenant configuration.
 
 ---
 
 ## Skills Demonstrated
 
-Planned skills include:
-
 - Microsoft Entra authentication fundamentals
-- MFA concepts
+- Authentication-factor classification
+- MFA concepts and validation
 - Authentication-method analysis
 - Passwordless authentication concepts
+- Passkey/FIDO2 concepts
+- Windows Hello for Business concepts
 - SSPR concepts
 - Password protection concepts
+- Phishing-resistance analysis
 - Identity security analysis
 - Zero Trust authentication reasoning
 - Read-only Entra administrative discovery
 - Security-conscious evidence collection
+- Scenario-based SC-900 knowledge validation
 
 ---
 
 ## Cleanup
 
-No Azure consumption resources or authentication-policy changes are planned for the core lab, so no technical cleanup should be required.
+No Azure consumption resources or authentication-policy changes were created during the core lab, so no technical cleanup was required.
 
-Any temporary evidence files outside the repository should be deleted after sanitized versions are committed.
+Temporary evidence files outside the repository should be removed after sanitized versions are committed.
 
 ---
 
 ## Documentation Security Review
 
-Before completion, verify that screenshots and documentation do not expose:
+Final review confirmed that the published screenshot set does not intentionally expose:
 
 - Personal email addresses or UPNs
 - Phone numbers
@@ -472,13 +572,31 @@ Before completion, verify that screenshots and documentation do not expose:
 - Secrets or tokens
 - Authentication-session details
 - User-specific authentication methods
-- Unnecessary security-posture information
+- Unnecessary tenant security-posture information
+
+The final evidence set was intentionally kept small and concept-focused.
 
 ---
 
 ## Screenshot Inventory
 
-To be completed after final evidence selection.
+| Screenshot | Status | Purpose |
+|---|---|---|
+| `00-entra-authentication-module-starting-state.png` | Included | Starting state and module objectives |
+| `01-entra-authentication-methods.png` | Included | Authentication-method comparison |
+| `02-entra-multifactor-authentication.png` | Included | MFA and independent-factor concept |
+| `03-entra-sspr-or-password-protection.png` | Included | SSPR vs. broader account recovery |
+| `04-entra-authentication-module-complete.png` | Included | Passed assessment and module completion |
+
+---
+
+## Outcome
+
+Lab 03 successfully established the authentication foundation needed for later Microsoft Entra access-control work.
+
+MRTG can now distinguish authentication factors, explain MFA, compare password and passwordless methods, identify stronger phishing-resistant authentication approaches, explain SSPR and password protection, and recognize the administrative areas in Microsoft Entra where these capabilities are governed.
+
+**Lab 03 status: Complete.**
 
 ---
 
