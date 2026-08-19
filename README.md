@@ -1,7 +1,7 @@
 # MRTG Security, Compliance & Identity Fundamentals
 
 ![Project Status](https://img.shields.io/badge/Project-In%20Progress-yellow)
-![Labs](https://img.shields.io/badge/Labs-5%20of%2012%20Complete-brightgreen)
+![Labs](https://img.shields.io/badge/Labs-6%20of%2012%20Complete-brightgreen)
 ![Microsoft](https://img.shields.io/badge/Microsoft-Security%20%7C%20Compliance%20%7C%20Identity-5C2D91)
 ![Certification](https://img.shields.io/badge/Certification-SC--900-5C2D91)
 ![License](https://img.shields.io/badge/License-MIT-blue)
@@ -47,7 +47,7 @@ Monroe Redstone Technology Group
 
 ```text
 Project Build                     | In Progress
-Labs Completed                    | 5 of 12
+Labs Completed                    | 6 of 12
 Master Lab Template               | Ready
 Repository Structure              | Ready
 AI Use Disclosure                 | Included
@@ -161,7 +161,7 @@ Azure Cost Management is used when Azure consumption resources are involved. Mic
 | 03 | [Authentication and Multifactor Authentication](labs/lab-03-authentication-mfa/) | Authentication methods, MFA, passwordless authentication, SSPR, and authentication strength | **Complete** |
 | 04 | [RBAC and Conditional Access](labs/lab-04-rbac-conditional-access/) | Least privilege, Microsoft Entra roles, Azure RBAC, Conditional Access, and Global Secure Access | **Complete** |
 | 05 | [Identity Governance](labs/lab-05-identity-governance/) | PIM, access reviews, entitlement management, identity lifecycle, Identity Protection, Verified ID, and Security Copilot integration | **Complete** |
-| 06 | [Azure Infrastructure Security](labs/lab-06-azure-security/) | Defense in depth, network security, DDoS Protection, Azure Firewall, WAF, Bastion, Key Vault, and NSGs | Planned |
+| 06 | [Azure Infrastructure Security](labs/lab-06-azure-security/) | Defense in depth, network security, DDoS Protection, Azure Firewall, WAF, Bastion, Key Vault, and NSGs | **Complete** |
 | 07 | [Microsoft Defender for Cloud](labs/lab-07-defender-for-cloud/) | Cloud Security Posture Management, Secure Score, recommendations, and workload protection | Planned |
 | 08 | [Microsoft Sentinel](labs/lab-08-microsoft-sentinel/) | SIEM, SOAR, data connectors, analytics, incidents, hunting, and automation | Planned |
 | 09 | [Microsoft Defender XDR](labs/lab-09-defender-xdr/) | Defender XDR, Defender for Endpoint, Defender for Office 365, Defender for Identity, Defender for Cloud Apps, vulnerability management, and threat intelligence | Planned |
