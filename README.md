@@ -1,7 +1,7 @@
 # MRTG Security, Compliance & Identity Fundamentals
 
 ![Project Status](https://img.shields.io/badge/Project-In%20Progress-yellow)
-![Labs](https://img.shields.io/badge/Labs-9%20of%2012%20Complete-brightgreen)
+![Labs](https://img.shields.io/badge/Labs-10%20of%2012%20Complete-brightgreen)
 ![Microsoft](https://img.shields.io/badge/Microsoft-Security%20%7C%20Compliance%20%7C%20Identity-5C2D91)
 ![Certification](https://img.shields.io/badge/Certification-SC--900-5C2D91)
 ![License](https://img.shields.io/badge/License-MIT-blue)
@@ -29,6 +29,7 @@ The project emphasizes:
 - Microsoft Defender for Cloud
 - Microsoft Sentinel SIEM and SOAR concepts
 - Microsoft Defender XDR
+- Microsoft Service Trust Portal and privacy principles
 - Microsoft Purview
 - Information protection and data governance
 - Compliance, audit, retention, and eDiscovery
@@ -47,7 +48,7 @@ Monroe Redstone Technology Group
 
 ```text
 Project Build                     | In Progress
-Labs Completed                    | 9 of 12
+Labs Completed                    | 10 of 12
 Master Lab Template               | Ready
 Repository Structure              | Ready
 AI Use Disclosure                 | Included
@@ -165,7 +166,7 @@ Azure Cost Management is used when Azure consumption resources are involved. Mic
 | 07 | [Microsoft Defender for Cloud](labs/lab-07-defender-for-cloud/) | CNAPP, CSPM, Secure Score, recommendations, regulatory compliance, multicloud security, workload protection, DevOps security, and AI security | **Complete** |
 | 08 | [Microsoft Sentinel](labs/lab-08-microsoft-sentinel/) | SIEM, SOAR, data connectors, analytics, incidents, AI/ML, Fusion, Content hub, hunting, automation, and Security Copilot | **Complete** |
 | 09 | [Microsoft Defender XDR](labs/lab-09-defender-xdr/) | Defender XDR, cross-domain correlation, Defender for Endpoint, Defender for Office 365, Defender for Identity, Defender for Cloud Apps, vulnerability management, automated investigation and response, and unified Defender portal concepts | **Complete** |
-| 10 | [Service Trust and Compliance](labs/lab-10-service-trust-compliance/) | Service Trust Portal, audit reports, assurance documentation, shared responsibility, and compliance concepts | Planned |
+| 10 | [Service Trust and Compliance](labs/lab-10-service-trust-compliance/) | Service Trust Portal, audit and assurance resources, certifications and standards, privacy principles, data control, data location, data security, and data defense | **Complete** |
 | 11 | [Microsoft Purview](labs/lab-11-microsoft-purview/) | Information protection, sensitivity labels, DLP, retention, records management, Audit, and eDiscovery | Planned |
 | 12 | [MRTG SC-900 Security, Compliance, and Identity Capstone](labs/lab-12-mrtg-sc900-capstone/) | Integrated identity, security operations, threat protection, compliance, governance, and incident analysis | Planned |
 
